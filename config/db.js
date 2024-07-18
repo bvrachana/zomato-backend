@@ -16,3 +16,4 @@ const connectDatabase = async ()=>{
 
 
 module.exports = connectDatabase;
+//mongodb+srv://rachanabv2003:racchu@cluster0.j4kqaq5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

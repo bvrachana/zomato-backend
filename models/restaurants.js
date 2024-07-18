@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 const foodSchema = new mongoose.Schema({
     name:{
         type:String,
@@ -64,7 +63,6 @@ const restaurantsSchema = new mongoose.Schema({
         aboutCost:{type:String}
     },
     categories:[categoriesSchema],
-
 })
 
 
